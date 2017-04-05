@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		8623BB5D1E9570ED009C4110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8623BB5C1E9570ED009C4110 /* AppDelegate.swift */; };
-		8623BB5F1E9570ED009C4110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8623BB5E1E9570ED009C4110 /* ViewController.swift */; };
 		8623BB621E9570ED009C4110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8623BB601E9570ED009C4110 /* Main.storyboard */; };
 		8623BB641E9570ED009C4110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8623BB631E9570ED009C4110 /* Assets.xcassets */; };
 		8623BB671E9570ED009C4110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8623BB651E9570ED009C4110 /* LaunchScreen.storyboard */; };
+		8623BB711E957262009C4110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8623BB6F1E957262009C4110 /* ViewController.swift */; };
+		8623BB741E9573A1009C4110 /* Localizable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8623BB761E9573A1009C4110 /* Localizable.plist */; };
+		8623BB791E9573CB009C4110 /* Localizable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8623BB7B1E9573CB009C4110 /* Localizable.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8623BB591E9570ED009C4110 /* EuropeanFlags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuropeanFlags.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8623BB5C1E9570ED009C4110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8623BB5E1E9570ED009C4110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8623BB611E9570ED009C4110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8623BB631E9570ED009C4110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8623BB661E9570ED009C4110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8623BB681E9570ED009C4110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8623BB6F1E957262009C4110 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8623BB751E9573A1009C4110 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Localizable.plist; sourceTree = "<group>"; };
+		8623BB7A1E9573CB009C4110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Localizable.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +59,31 @@
 			isa = PBXGroup;
 			children = (
 				8623BB5C1E9570ED009C4110 /* AppDelegate.swift */,
-				8623BB5E1E9570ED009C4110 /* ViewController.swift */,
+				8623BB6E1E957262009C4110 /* Controllers */,
+				8623BB701E957262009C4110 /* Images */,
 				8623BB601E9570ED009C4110 /* Main.storyboard */,
 				8623BB631E9570ED009C4110 /* Assets.xcassets */,
 				8623BB651E9570ED009C4110 /* LaunchScreen.storyboard */,
 				8623BB681E9570ED009C4110 /* Info.plist */,
+				8623BB761E9573A1009C4110 /* Localizable.plist */,
+				8623BB7B1E9573CB009C4110 /* Localizable.plist */,
 			);
 			path = EuropeanFlags;
+			sourceTree = "<group>";
+		};
+		8623BB6E1E957262009C4110 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8623BB6F1E957262009C4110 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8623BB701E957262009C4110 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8623BB671E9570ED009C4110 /* LaunchScreen.storyboard in Resources */,
+				8623BB741E9573A1009C4110 /* Localizable.plist in Resources */,
+				8623BB791E9573CB009C4110 /* Localizable.plist in Resources */,
 				8623BB641E9570ED009C4110 /* Assets.xcassets in Resources */,
 				8623BB621E9570ED009C4110 /* Main.storyboard in Resources */,
 			);
@@ -137,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8623BB5F1E9570ED009C4110 /* ViewController.swift in Sources */,
+				8623BB711E957262009C4110 /* ViewController.swift in Sources */,
 				8623BB5D1E9570ED009C4110 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +183,22 @@
 				8623BB661E9570ED009C4110 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8623BB761E9573A1009C4110 /* Localizable.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8623BB751E9573A1009C4110 /* en */,
+			);
+			name = Localizable.plist;
+			sourceTree = "<group>";
+		};
+		8623BB7B1E9573CB009C4110 /* Localizable.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8623BB7A1E9573CB009C4110 /* Base */,
+			);
+			name = Localizable.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -261,6 +301,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LAYLAP53SY;
 				INFOPLIST_FILE = EuropeanFlags/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dariukas.EuropeanFlags;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +315,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LAYLAP53SY;
 				INFOPLIST_FILE = EuropeanFlags/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dariukas.EuropeanFlags;
 				PRODUCT_NAME = "$(TARGET_NAME)";
