@@ -14,6 +14,8 @@
 		8623BB711E957262009C4110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8623BB6F1E957262009C4110 /* ViewController.swift */; };
 		8623BB741E9573A1009C4110 /* Localizable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8623BB761E9573A1009C4110 /* Localizable.plist */; };
 		8623BB791E9573CB009C4110 /* Localizable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8623BB7B1E9573CB009C4110 /* Localizable.plist */; };
+		FD6D646D1E964D5200AF553C /* germany_round_icon_640.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6D646B1E964D5200AF553C /* germany_round_icon_640.png */; };
+		FD6D646E1E964D5200AF553C /* italy_round_icon_640.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6D646C1E964D5200AF553C /* italy_round_icon_640.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8623BB6F1E957262009C4110 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8623BB751E9573A1009C4110 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Localizable.plist; sourceTree = "<group>"; };
 		8623BB7A1E9573CB009C4110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Localizable.plist; sourceTree = "<group>"; };
+		FD6D646B1E964D5200AF553C /* germany_round_icon_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = germany_round_icon_640.png; sourceTree = "<group>"; };
+		FD6D646C1E964D5200AF553C /* italy_round_icon_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = italy_round_icon_640.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,7 @@
 			children = (
 				8623BB5C1E9570ED009C4110 /* AppDelegate.swift */,
 				8623BB6E1E957262009C4110 /* Controllers */,
-				8623BB701E957262009C4110 /* Images */,
+				FD6D646A1E964D5200AF553C /* Images */,
 				8623BB601E9570ED009C4110 /* Main.storyboard */,
 				8623BB631E9570ED009C4110 /* Assets.xcassets */,
 				8623BB651E9570ED009C4110 /* LaunchScreen.storyboard */,
@@ -79,9 +83,11 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		8623BB701E957262009C4110 /* Images */ = {
+		FD6D646A1E964D5200AF553C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				FD6D646B1E964D5200AF553C /* germany_round_icon_640.png */,
+				FD6D646C1E964D5200AF553C /* italy_round_icon_640.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -150,6 +156,8 @@
 				8623BB741E9573A1009C4110 /* Localizable.plist in Resources */,
 				8623BB791E9573CB009C4110 /* Localizable.plist in Resources */,
 				8623BB641E9570ED009C4110 /* Assets.xcassets in Resources */,
+				FD6D646D1E964D5200AF553C /* germany_round_icon_640.png in Resources */,
+				FD6D646E1E964D5200AF553C /* italy_round_icon_640.png in Resources */,
 				8623BB621E9570ED009C4110 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +350,7 @@
 				8623BB6D1E9570ED009C4110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
