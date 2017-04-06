@@ -14,6 +14,8 @@
 		8623BB711E957262009C4110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8623BB6F1E957262009C4110 /* ViewController.swift */; };
 		8623BB741E9573A1009C4110 /* Localizable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8623BB761E9573A1009C4110 /* Localizable.plist */; };
 		8623BB791E9573CB009C4110 /* Localizable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8623BB7B1E9573CB009C4110 /* Localizable.plist */; };
+		FC8315341E96F6DD0017AA4C /* Lithuania.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8315331E96F6DD0017AA4C /* Lithuania.png */; };
+		FC8315361E96F6F80017AA4C /* Poland.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8315351E96F6F80017AA4C /* Poland.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8623BB6F1E957262009C4110 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8623BB751E9573A1009C4110 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Localizable.plist; sourceTree = "<group>"; };
 		8623BB7A1E9573CB009C4110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Localizable.plist; sourceTree = "<group>"; };
+		FC8315331E96F6DD0017AA4C /* Lithuania.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lithuania.png; sourceTree = "<group>"; };
+		FC8315351E96F6F80017AA4C /* Poland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Poland.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 		8623BB701E957262009C4110 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				FC8315351E96F6F80017AA4C /* Poland.png */,
+				FC8315331E96F6DD0017AA4C /* Lithuania.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -149,8 +155,10 @@
 				8623BB671E9570ED009C4110 /* LaunchScreen.storyboard in Resources */,
 				8623BB741E9573A1009C4110 /* Localizable.plist in Resources */,
 				8623BB791E9573CB009C4110 /* Localizable.plist in Resources */,
+				FC8315361E96F6F80017AA4C /* Poland.png in Resources */,
 				8623BB641E9570ED009C4110 /* Assets.xcassets in Resources */,
 				8623BB621E9570ED009C4110 /* Main.storyboard in Resources */,
+				FC8315341E96F6DD0017AA4C /* Lithuania.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +350,7 @@
 				8623BB6D1E9570ED009C4110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
