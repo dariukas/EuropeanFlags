@@ -24,7 +24,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8wp-15-iz0">
                                 <rect key="frame" x="9" y="283" width="173" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="estoniaFlag">
+                                <state key="normal" title="Button" image="EstoniaFlag.png">
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -34,7 +34,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Anc-YO-I2H">
                                 <rect key="frame" x="194" y="283" width="181" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="bulgariaFlag"/>
+                                <state key="normal" title="Button" image="BulgariaFlag.png"/>
                                 <connections>
                                     <segue destination="2bS-4H-bLt" kind="show" id="NjJ-xr-qeM"/>
                                 </connections>
@@ -168,7 +168,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bulgariaFlag" width="320" height="240"/>
-        <image name="estoniaFlag" width="320" height="240"/>
+        <image name="BulgariaFlag.png" width="640" height="480"/>
+        <image name="EstoniaFlag.png" width="640" height="480"/>
     </resources>
 </document>

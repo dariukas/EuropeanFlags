@@ -14,6 +14,8 @@
 		8623BB711E957262009C4110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8623BB6F1E957262009C4110 /* ViewController.swift */; };
 		8623BB741E9573A1009C4110 /* Localizable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8623BB761E9573A1009C4110 /* Localizable.plist */; };
 		8623BB791E9573CB009C4110 /* Localizable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8623BB7B1E9573CB009C4110 /* Localizable.plist */; };
+		EA4308031E9BA26500F47236 /* BulgariaFlag.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4308011E9BA26500F47236 /* BulgariaFlag.png */; };
+		EA4308041E9BA26500F47236 /* EstoniaFlag.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4308021E9BA26500F47236 /* EstoniaFlag.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8623BB6F1E957262009C4110 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8623BB751E9573A1009C4110 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Localizable.plist; sourceTree = "<group>"; };
 		8623BB7A1E9573CB009C4110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Localizable.plist; sourceTree = "<group>"; };
+		EA4308011E9BA26500F47236 /* BulgariaFlag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BulgariaFlag.png; sourceTree = "<group>"; };
+		EA4308021E9BA26500F47236 /* EstoniaFlag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EstoniaFlag.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				8623BB5C1E9570ED009C4110 /* AppDelegate.swift */,
+				EA4308001E9BA26500F47236 /* Images */,
 				8623BB6E1E957262009C4110 /* Controllers */,
 				8623BB601E9570ED009C4110 /* Main.storyboard */,
 				8623BB631E9570ED009C4110 /* Assets.xcassets */,
@@ -76,6 +81,15 @@
 				8623BB6F1E957262009C4110 /* ViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EA4308001E9BA26500F47236 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EA4308011E9BA26500F47236 /* BulgariaFlag.png */,
+				EA4308021E9BA26500F47236 /* EstoniaFlag.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +156,9 @@
 				8623BB741E9573A1009C4110 /* Localizable.plist in Resources */,
 				8623BB791E9573CB009C4110 /* Localizable.plist in Resources */,
 				8623BB641E9570ED009C4110 /* Assets.xcassets in Resources */,
+				EA4308031E9BA26500F47236 /* BulgariaFlag.png in Resources */,
 				8623BB621E9570ED009C4110 /* Main.storyboard in Resources */,
+				EA4308041E9BA26500F47236 /* EstoniaFlag.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
