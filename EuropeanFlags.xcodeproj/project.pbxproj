@@ -60,7 +60,6 @@
 			children = (
 				8623BB5C1E9570ED009C4110 /* AppDelegate.swift */,
 				8623BB6E1E957262009C4110 /* Controllers */,
-				8623BB701E957262009C4110 /* Images */,
 				8623BB601E9570ED009C4110 /* Main.storyboard */,
 				8623BB631E9570ED009C4110 /* Assets.xcassets */,
 				8623BB651E9570ED009C4110 /* LaunchScreen.storyboard */,
@@ -77,13 +76,6 @@
 				8623BB6F1E957262009C4110 /* ViewController.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		8623BB701E957262009C4110 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,6 +334,7 @@
 				8623BB6D1E9570ED009C4110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
